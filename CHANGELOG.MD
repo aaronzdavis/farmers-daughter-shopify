@@ -7,3 +7,8 @@ Sun Aug 25 11:17am
 Aaron Davis
 Commit #2
 Write index and info html
+
+Sun Aug 25 12:00am
+Aaron Davis
+Commit #3
+Add product html

@@ -14,7 +14,62 @@ section {
   gap: 8px;
 }
 
-section > div {
-  background: black;
-  padding-top: 100%;
+section img {
+  width: 100%;
+}
+
+.scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.scroll-container img {
+  max-width: 666px;
+  width: 80vw;
+}
+
+.variants a {
+  color: black;
+  padding: 2px;
+  margin: 0 8px;
+}
+
+.variants .active {
+  text-decoration: underline;
+}
+
+.options {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.options a {
+  padding: 2px;
+  margin: 0 6px;
+}
+
+.options a.sold-out {
+  color: rgb(189, 189, 189);
+}
+
+.size-information {
+  border-collapse: collapse;
+  display: none;
+  margin-top: 12px;
+}
+
+.size-information td, .size-information th {
+  border: 1px solid rgb(189, 189, 189);
+  min-width: 40px;
+  padding: 12px;
+  text-align: center;
+}
+
+#toggle-size {
+  display: none;
+}
+
+#toggle-size:checked + .size-information {
+  display: table;
 }
