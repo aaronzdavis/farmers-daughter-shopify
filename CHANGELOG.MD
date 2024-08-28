@@ -8,7 +8,12 @@ Aaron Davis
 Commit #2
 Write index and info html
 
-Sun Aug 25 12:00am
+Sun Aug 25 12:00pm
 Aaron Davis
 Commit #3
 Add product html
+
+Sun Aug 27 6:35pm
+Aaron Davis
+Commit #4
+Review with Alix updates: Header spacing, hr color
